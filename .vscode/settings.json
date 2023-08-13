@@ -1,0 +1,30 @@
+{
+  "files.exclude": {
+    "*.dart_tool": true,
+    "*.dart_tool.*": true,
+    "*.gitignore": true,
+    "*.gitignore.*": true,
+    "*.idea": true,
+    "*.idea.*": true,
+    "*.metadata": true,
+    "*.metadata.*": true,
+    "*.vscode": true,
+    "*.vscode.*": true,
+    "*analysis_options": true,
+    "*analysis_options.*": true,
+    "*android": true,
+    "*android.*": true,
+    "*ios": true,
+    "*ios.*": true,
+    "*lib.*": true,
+    "*linux": true,
+    "*linux.*": true,
+    "*test.*": true,
+    "*web": true,
+    "*web.*": true,
+    "*webnadhilahnew": true,
+    "*webnadhilahnew.*": true,
+    "*windows": true,
+    "*windows.*": true
+  }
+}

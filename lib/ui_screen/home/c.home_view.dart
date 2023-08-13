@@ -1,10 +1,4 @@
-import 'package:flutter/material.dart';
 part of '_index.dart';
-
-
-// import 'package:webnadhilahnew/ui_screen/bigscreen/bigscreen.dart';
-// import 'package:webnadhilahnew/ui_screen/smallscreen/smallscreen.dart';
-// import 'package:webnadhilahnew/ui_widgets/drawer.dart';
 
 class Webnad extends StatelessWidget {
   const Webnad({super.key});
