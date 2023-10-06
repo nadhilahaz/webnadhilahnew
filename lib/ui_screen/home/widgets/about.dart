@@ -1,7 +1,5 @@
-// import 'package:flutter/material.dart';
 part of '../_index.dart';
 
-// part of '_index.dart';
 class About extends StatelessWidget {
   const About({
     super.key,
@@ -9,7 +7,6 @@ class About extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // final width = MediaQuery.of(context).size.width;
     return Container(
       margin: const EdgeInsets.all(10),
       height: 400,
@@ -27,13 +24,9 @@ class About extends StatelessWidget {
           "Hi there!  I am Nadhilah Hazrati, I'm 19 Years Old. I was born in Ciamis and now im living in Tasikmalaya. Currently studying at Siliwangi University Majoring in Informatics on 3rd semester. Technology and Programming is fun for me, we can pour all our ideas there. I'm currently developing my skills. Beside that, i also like cooking. I hope we can connect!",
           textAlign: TextAlign.center,
           textScaleFactor: 2,
-          style: GoogleFonts.ysabeau(color: Colors.brown, fontSize: 10
-              //  fontSize: hitungEdan(width),
-              ),
+          style: GoogleFonts.ysabeau(color: Colors.brown, fontSize: 10),
         ),
       ]),
-    )
-        // child: width > 1000 ? const Horizontalabout() : const Verticalabout(),
-        ;
+    );
   }
 }

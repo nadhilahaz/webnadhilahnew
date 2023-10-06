@@ -1,15 +1,8 @@
-// import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:states_rebuilder/scr/state_management/state_management.dart';
-// import 'package:states_rebuilder/states_rebuilder.dart';
-
-// import '../../app/_index.dart';
-// import 'package:google_fonts/google_fonts.dart';
 
 part 'a.home_data.dart';
-// part 'b.home_ctrl.dart';
 
 part 'c.home_view.dart';
 part 'widgets/about.dart';
@@ -29,6 +22,3 @@ part 'widgets/textpendidikan.dart';
 
 part 'widgets/bigscreen.dart';
 part 'widgets/smallscreen.dart';
-
-// Homedata get _dt => Data.Home.st;
-// HomeCtrl get _ct => Ctrl.Home;

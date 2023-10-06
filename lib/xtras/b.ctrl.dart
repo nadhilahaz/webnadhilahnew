@@ -9,3 +9,5 @@
 //   static CobaDuaCtrl get cobaDua => CobaDuaCtrl();
 //   static CobaTigaCtrl get Home => CobaTigaCtrl();
 // }
+
+// final ctrl = AutoScrollController();
