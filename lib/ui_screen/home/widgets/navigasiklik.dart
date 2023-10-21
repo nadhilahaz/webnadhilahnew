@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 
-class Navigasiklik extends StatelessWidget {
-  const Navigasiklik({super.key});
+class ScrollController extends StatelessWidget {
+  const ScrollController({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(),
+      ),
+    );
   }
 }

@@ -10,14 +10,22 @@ class Sayhalo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Flexible(
-      child: Container(
-        margin: const EdgeInsets.all(10),
-        height: 50,
-        width: 100,
-        color: const Color.fromARGB(255, 190, 180, 154),
-        child: const Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [Text('Say Hello !')],
+      child: MaterialButton(
+        onPressed: () {
+          html.window.open('https://instagram.com/nadhilahazr?igshid=MzRlODBiNWFlZA==', 'new');
+        },
+        color: const Color.fromARGB(255, 216, 191, 182),
+        splashColor: Colors.black,
+        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+        shape: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(20),
+        ),
+        child: const Text(
+          'SAY HALLO!',
+          style: TextStyle(
+            fontWeight: FontWeight.w200,
+            color: Colors.black,
+          ),
         ),
       ),
     );

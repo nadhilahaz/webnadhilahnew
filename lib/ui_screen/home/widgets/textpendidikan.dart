@@ -20,7 +20,7 @@ class Textpendidikan extends StatelessWidget {
                 ),
           ),
           Text(
-            "Science",
+            "--Science--",
             style: GoogleFonts.ysabeau(color: Colors.brown, fontSize: 30
                 // fontSize: hitung.tentang(lebarLayar / 1.5),
                 ),
@@ -33,7 +33,7 @@ class Textpendidikan extends StatelessWidget {
                 ),
           ),
           Text(
-            "Informatics",
+            "--Informatics--",
             style: GoogleFonts.ysabeau(color: Colors.brown, fontSize: 30
                 // fontSize: hitung.tentang(lebarLayar / 1.5),
                 ),

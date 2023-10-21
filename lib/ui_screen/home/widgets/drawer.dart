@@ -67,10 +67,10 @@ class Draw extends StatelessWidget {
               leading: const Icon(Icons.phone_android_sharp),
               title: const Text("Social Media"),
               onTap: () {
-                debugPrint('ini print from Home');
-                // ctrl.scrollToIndex(5);
+                Navigator.pushNamed(context, AppRoutes.about); // Change to the correct route
               },
             ),
+
             // ListTile(
             //   leading: const Icon(Icons.info),
             //   title: const Text("Tentang"),

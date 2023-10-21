@@ -1,14 +1,17 @@
-part of '_index.dart';
+import 'package:flutter/material.dart';
+import 'package:webnadhilahnew/ui_screen/home/_index.dart';
 
-class Routes {
-  Routes._();
+class AppRoutes {
+  static const String home = '/';
+  static const String about = '/about';
+  static const String education = '/education';
+  // Tambahkan rute untuk halaman lain di sini
 
-  // static const root = '/';
-  //* master -- ----- ----- ----- ----- -----
-  static const productList = '/product_list';
-  static const productDetail = '/product_detail';
-  static const productAdd = '/product_add';
-  static const productEdit = '/product_edit';
-  static const cobaDua = '/coba_dua';
-  static const cobaTiga = '/coba_tiga';
+  // Metode untuk mendapatkan daftar rute
+  static Map<String, Widget Function(BuildContext)> routes = {
+    home: (context) => const Datadiri(),
+    about: (context) => const About(),
+    education: (context) => const Textedu(),
+    // Tambahkan rute untuk halaman lain di sini
+  };
 }

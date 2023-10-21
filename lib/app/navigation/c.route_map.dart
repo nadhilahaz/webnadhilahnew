@@ -1,7 +1,7 @@
-// part of '_index.dart';
+part of '_index.dart';
 
-// class RouteMap {
-//   RouteMap._();
+class RouteMap {
+  RouteMap._();
 
 //   static final data = {
 //     // Routes.root: (RouteData data) => const HomeView(),
@@ -14,4 +14,4 @@
 //     Routes.cobaDua: (RouteData data) => const CobaDuaView(),
 //     Routes.cobaTiga: (RouteData data) => const CobaTigaView(),
 //   };
-// }
+}
